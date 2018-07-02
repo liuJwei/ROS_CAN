@@ -1,0 +1,13 @@
+<launch>
+
+
+  <node name="can_send" pkg="can_send_lv" type="can_send" output = "screen" />
+
+  <node name="camera" pkg="can_send_lv" type="camera" output = "screen" />
+
+  <node name="lidar" pkg="can_send_lv" type="lidar" output = "screen" />
+
+  <node name="radar" pkg="can_send_lv" type="radar" output = "screen" />
+
+
+</launch>	
